@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84953D1F-73A1-44D7-B9C1-27EB2AED40B7}</ProjectGuid>
+    <ProjectGuid>{44CF2D78-59D7-4185-BC1D-438873A2C161}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TheButton</RootNamespace>
@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -45,9 +42,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="websocket-sharp">
-      <HintPath>..\packages\WebSocketSharp.1.0.3-rc7\lib\websocket-sharp.dll</HintPath>
-    </Reference>
     <Reference Include="WebSocket4Net">
       <HintPath>..\packages\WebSocket4Net.0.12\lib\net45\WebSocket4Net.dll</HintPath>
     </Reference>

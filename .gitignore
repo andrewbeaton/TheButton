@@ -7,9 +7,12 @@
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+=======
+>>>>>>> parent of cd69a56... Initial commit
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -22,14 +25,23 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+<<<<<<< HEAD
 # Visual Studo 2015 cache/options directory
 .vs/
+=======
+# Roslyn cache directories
+*.ide/
+>>>>>>> parent of cd69a56... Initial commit
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+<<<<<<< HEAD
 # NUNIT
+=======
+#NUNIT
+>>>>>>> parent of cd69a56... Initial commit
 *.VisualState.xml
 TestResult.xml
 
@@ -140,7 +152,11 @@ publish/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+<<<<<<< HEAD
 # Uncomment if necessary however generally it will be regenerated when needed
+=======
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
+>>>>>>> parent of cd69a56... Initial commit
 #!**/packages/repositories.config
 
 # Windows Azure Build Output
@@ -151,7 +167,12 @@ csx/
 AppPackages/
 
 # Others
+<<<<<<< HEAD
 *.[Cc]ache
+=======
+sql/
+*.Cache
+>>>>>>> parent of cd69a56... Initial commit
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -161,7 +182,10 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
+<<<<<<< HEAD
 bower_components/
+=======
+>>>>>>> parent of cd69a56... Initial commit
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -186,6 +210,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+<<<<<<< HEAD
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -194,3 +219,51 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+=======
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+>>>>>>> parent of cd69a56... Initial commit
